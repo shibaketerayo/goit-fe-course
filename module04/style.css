@@ -1,0 +1,141 @@
+/*CONVETIONS*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600,700|Roboto:300,900');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.page-head {
+    padding-bottom: 107px;
+}
+
+.page-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 0 0 0;
+}
+
+.logo {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    color: gray;
+}
+
+.logo::first-letter {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: aqua;
+}
+
+.site-navigation {
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    list-style: none;
+}
+
+.site-navigation li {
+    font-weight: 900;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.site-navigation li:last-child {
+    margin-right: 0;
+
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: aqua;
+}
+
+.site-navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+.shop-title {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 900;
+    color: gray;
+    width: 477px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding-bottom: 131px;
+}
+
+.shop-title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 105px;
+    height: 7px;
+    background-color: aqua;
+    top: 58px;
+    left: 185px;
+}
+
+.shop-menu {
+    list-style: none;
+}
+
+.shop-menu-item {
+    width: 255px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 26px;
+}
+
+.shop-menu-item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.shop-menu-item-link {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.wrapper {
+    margin-top:-4px;
+    font-size: 0;
+    /* background-color: rgb(71, 70, 70); */
+}
+
+.product-description {
+    padding: 14px 0 13px 14px;
+    display: inline-block;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #323232;
+    color: white;
+
+}
+
+.product-price {
+    padding: 14px 0 13px 0 ;
+    display: inline-block;
+    width: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #8c8c8c;
+    color: white;
+    text-align: center;
+}

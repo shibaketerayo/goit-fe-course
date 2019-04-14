@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&subset=cyrillic');
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+.page-nav {
+    padding-top: 70px;
+    padding-bottom: 110px;
+}
+.navigation  {
+    margin: 0;
+    padding: 0;
+}
+.navigation {
+    text-align: center;
+    font-style: 30px;
+}
+.navigation li {
+    display: inline-block;
+    margin-right: 105px;
+
+}
+.navigation li:last-child{
+    margin-right: 0;
+}
+.navigation a{
+    color: rgb(112, 110, 110);
+}
+.navigation a:hover,
+.navigation a:focus {
+    color: rgb(29, 228, 228);
+}
+.navigation a {
+    text-decoration: none;
+}
+.img{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    
+}
+
+
