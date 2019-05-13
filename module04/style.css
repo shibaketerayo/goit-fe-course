@@ -139,3 +139,83 @@
     color: white;
     text-align: center;
 }
+
+/*footer*/
+
+.footer-title {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 46px;
+    font-weight: 900;
+    color: #515151;
+    width: 305px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding: 104px 0 122px 0;
+}
+
+.footer-title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 164px;
+    height: 7px;
+    background-color: #4ec6ab;
+    top: 182px;
+    left: 70px;
+}
+
+.footer-menu {
+    list-style: none;
+}
+
+.footer-menu-item {
+    width: 350px;
+    display: inline-block;
+    margin-right: 26px;
+}
+
+.footer-menu-item:last-child {
+    margin-right: 0;
+}
+.footer-p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #555252;
+    padding-bottom: 42px;
+    position: relative;
+}
+
+.footer-p::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 136px;
+    height: 3px;
+    background-color: #4ec6ab;
+    top: 58px;
+    left: 0;
+}
+
+.footer-p-1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555252;
+    padding-bottom: 20px;
+}
+
+.footer-button {
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 81px;
+    padding: 18px 42px;
+    background-color: #4ec6ab;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
