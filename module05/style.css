@@ -69,7 +69,7 @@
 
 .shop {
     width: 100%;
-    background: url('../img/BIGEST1.png'), linear-gradient(to bottom, rgba(58, 58, 58, 0.6) 0%,rgba(22, 19, 18, 0.6) 100%);
+    background: url('./img/BIGEST1.png'), linear-gradient(to bottom, rgba(58, 58, 58, 0.6) 0%,rgba(22, 19, 18, 0.6) 100%);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
