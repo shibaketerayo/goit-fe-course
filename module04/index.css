@@ -35,7 +35,7 @@
 .logo::first-letter {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    color: aqua;
+    color: #4ec6ab;
 }
 
 .site-navigation {
@@ -58,7 +58,7 @@
 
 .site-navigation a:hover,
 .site-navigation a:focus {
-    color: aqua;
+    color: #4ec6ab;
 }
 
 .site-navigation a {
@@ -69,25 +69,25 @@
 .shop-title {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    font-size: 26px;
+    font-size: 46px;
     font-weight: 900;
-    color: gray;
+    color: #515151;
     width: 477px;
     margin: 0 auto;
     position: relative;
     text-align: center;
-    padding-bottom: 131px;
+    padding-bottom: 133px;
 }
 
 .shop-title::before {
     content: "";
     display: block;
     position: absolute;
-    width: 105px;
+    width: 164px;
     height: 7px;
-    background-color: aqua;
-    top: 58px;
-    left: 185px;
+    background-color: #4ec6ab;
+    top: 78px;
+    left: 155px;
 }
 
 .shop-menu {
@@ -97,7 +97,7 @@
 .shop-menu-item {
     width: 255px;
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-right: 26px;
 }
 
@@ -113,14 +113,14 @@
 .wrapper {
     margin-top:-4px;
     font-size: 0;
-    /* background-color: rgb(71, 70, 70); */
 }
 
 .product-description {
-    padding: 14px 0 13px 14px;
     display: inline-block;
+    padding: 14px 0 13px 14px;
     width: 200px;
     font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
     background-color: #323232;
@@ -129,8 +129,8 @@
 }
 
 .product-price {
-    padding: 14px 0 13px 0 ;
     display: inline-block;
+    padding: 14px 0 13px 0;
     width: 55px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
