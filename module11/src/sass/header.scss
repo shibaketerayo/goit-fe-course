@@ -1,0 +1,19 @@
+&title-color: yellowgreen;
+
+.header{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(211, 211, 211);
+}
+&__title{
+    text-align: center;
+    color: &title-color;
+    font-size: 30px;
+}
+
+&__subtitle {
+    color: &title-color;
+}
+&__article{
+    color: &title-color;
+}

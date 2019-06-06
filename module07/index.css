@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600,700|Roboto:300,900');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* fonts */
+
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../shrift/roboto-slab-v8-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Wisdom Script';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Wisdom\ Script\ AI.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/roboto-slab-v8-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./fonts/montserrat-v13-cyrillic_latin-700.woff2') format('woff2');
+}
+.page-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 120px 0;
+}
+/* header */
+.logo{
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Wisdom Script';
+    font-size: 26px;
+    color: #fed75e;
+
+}
