@@ -1,0 +1,365 @@
+/* convetoinses */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media all and (min-width: 320px) {
+    .page__header {
+        background: url(./img/main_img_mobile.png)rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 542px;
+    }
+
+    .container__for__link {
+        padding: 32px 0 165px 0;
+    }
+    
+/* ссылки */
+
+    .header__link1 {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        margin-left: 80px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    }
+
+    .header__link2 {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        padding: 10px 17px 8px 16px;
+        margin-left: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        border: 3px solid white;
+        border-radius: 25px;
+    }
+/* робота с текстом */
+    .colorer {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+    }
+    .header__logo {
+        font-size: 20px;
+        padding-bottom: 39px;
+    }
+
+    .header__zagolovok {
+        font-size: 30px;
+        padding-bottom: 20px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .header__text {
+        width: 217px;
+        margin: 0 auto 19px;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        text-align: center;
+        color: white;
+    }
+/* кнопка */
+    .button {
+        width: 280px;
+        height: 40px;
+        background-color: #ff4e50;
+        border: 1px solid #ff4e50;
+        border-radius: 25px;
+        margin: 0 auto;
+        /* text-align: center; */
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: white;
+        cursor: pointer;
+        display: block;
+    }
+
+/* заголовок */
+
+    .main__zagolovok {
+        font-size: 22px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        padding: 69px 0 20px 0;
+    }
+
+/* фото */
+
+    .section__karman {
+        margin-left: 60px;
+        width: 200px;
+        position: relative;
+    }
+
+    .div__img {
+        margin: 0 auto;
+        display: block;
+        border-radius: 100px;
+    }
+
+    /* мини ссылки */
+
+    .section__paket1 {
+        width: 35px;
+        height: 35px;
+        background-color: #ff4e50;
+        border: 5px solid white;
+        border-radius: 100px;
+        position: absolute;
+        top: 75px;
+        left: 110px;
+    }
+
+    .section__paket2 {
+        width: 35px;
+        height: 35px;
+        background-color: #ffa507;
+        border: 5px solid white;
+        border-radius: 100px;
+        position: absolute;
+        top: 75px;
+        left: 110px;
+    }
+
+    .section__paket3 {
+        width: 35px;
+        height: 35px;
+        background-color: #1cd7ad;
+        border: 5px solid white;
+        border-radius: 100px;
+        position: absolute;
+        top: 75px;
+        left: 110px;
+    }
+
+    .section__paket4 {
+        width: 35px;
+        height: 35px;
+        background-color: #4e73db;
+        border: 5px solid white;
+        border-radius: 100px;
+        position: absolute;
+        top: 75px;
+        left: 110px;
+    }
+
+    /* паддинги ссылок */
+
+    .a__img1 {
+        padding: 6px 0 0 8px;
+    }
+
+    .a__img2 {
+        padding: 8px 0 0 11px;
+    }
+
+    .a__img3 {
+        padding: 7px 0 0 8px;
+    }
+
+    .a__img4 {
+        padding: 8px 0 0 8px;
+    }
+
+    /* текст */
+
+    .img__h {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        padding: 20px 0 15px 0;
+    }
+
+    .h__text {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        text-align: center;
+        color: gray;
+        padding-bottom: 30px;
+    }
+
+/* кнопка  */
+
+    .buttoner {
+        width: 276px;
+        height: 36px;
+        background-color: transparent;
+        border: 2px solid #ff4e50;
+        border-radius: 25px;
+        margin: 0 auto 60px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: #ff4e50;
+        cursor: pointer;
+        display: block;
+    }
+}
+
+@media all and (min-width: 768px) {
+
+/* картина сайта */
+
+    .page__header {
+        background: url(./img/main_img.png)rgba(0, 0, 0, 0.5);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+        position: relative;
+    }
+
+/* ссылки */
+
+    .header__link1 {
+        position: absolute;
+        top: 50px;
+        left: 550px;
+        margin: 0;
+    }
+
+    .header__link2 {
+        position: absolute;
+        margin: 0;
+        top: 38px;
+        left: 620px;
+    }
+
+/* лого */
+
+    .header__logo {
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+
+/* текст и кнопка */
+
+    .header__zagolovok {
+        font-size: 52px;
+        padding-bottom: 40px;
+        width: 568px;
+    }
+
+    .header__text {
+        font-size: 24px;
+        margin: 0;
+        padding: 0 0 35px 0;
+        width: 100%;
+    }
+
+    .button {
+        margin-left: 272px;
+        width: 225px;
+        height: 40px;
+    }
+
+/* позиционирование */
+
+    .boder {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .wrapperer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section__karman {
+        margin-left: 0;
+    }
+
+/* кнопка */
+
+    .buttoner {
+        margin-top: 10px;
+        width: 188px;
+        height: 36px;
+    }
+}
+
+@media all and (min-width: 1440px) {
+    .page__header {
+        background: url(./img/main_img.png)rgba(0, 0, 0, 0.5);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+        position: relative;
+    }
+
+    .header__link1 {
+        position: absolute;
+        top: 50px;
+        left: 1040px;
+        margin: 0;
+    }
+
+    .header__link2 {
+        position: absolute;
+        margin: 0;
+        top: 38px;
+        left: 1110px;
+    }
+
+    .header__logo {
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 50px;
+        left: 240px;
+    }
+
+    .header__zagolovok {
+        font-size: 52px;
+        padding: 0 0 35px 0;
+        width: 568px;
+    }
+
+    .button {
+        margin-left: 610px;
+        width: 225px;
+        height: 40px;
+    }
+
+    /* позиционирование */
+
+    .boder {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .wrapperer {
+        display: flex;
+        flex-direction: row;
+        width: 550px;
+        justify-content: space-between;
+    }
+
+    /* ниже кнопка */
+
+    .buttoner {
+        margin-top: 10px;
+        margin-left: 626px;
+    }
+
+}
+  

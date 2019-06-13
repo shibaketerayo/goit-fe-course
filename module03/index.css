@@ -53,14 +53,11 @@ html {
     color: rgb(59, 201, 248);
 }
 
-<<<<<<< HEAD
-/*content*/
-=======
 /*conten*/
->>>>>>> cf1637f2986a456626d37952d5225b26c5369a13
 
 .container-section {
     margin-bottom: 60px;
+    font-size: 0;
 }
 
 .container-section-ul {
