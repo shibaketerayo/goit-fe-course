@@ -153,7 +153,6 @@
     background-color: #222222;
     background-size: cover;
     position: relative;
-    background-image: url(../img/country.png);
 }
 
 .biger {
@@ -173,12 +172,12 @@
     padding: 23px 0 75px 0;
 }
 
-/* .country {
+.country {
     position: absolute;
     z-index: 1;
     right: 2px;
     top: 130px;
-} */
+}
 
 /* buttons */
 
